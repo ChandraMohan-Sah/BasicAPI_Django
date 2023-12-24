@@ -9,13 +9,13 @@ APP_Name
 |----------|
 
 1.POST Request [CREATE Operation]
-    |--->Client's can Post data to Database. (generics.CreateAPIView)
+    a.Client's can Post data to Database. (generics.CreateAPIView)
 
 
 2.GET Request [READ Operation]
-    |--->Retrieve All Products Data. (generics.ListAPIView)
-    |--->Retrieve Particular Product Detail Based on pk. (generics.RetrieveAPIView)
-    |--->Retrive all Products and also show a Form for Posting any Product Detail. (generics.ListCreateAPIView)
+    a.Retrieve All Products Data. (generics.ListAPIView)
+    b.Retrieve Particular Product Detail Based on pk. (generics.RetrieveAPIView)
+    c.Retrive all Products and also show a Form for Posting any Product Detail. (generics.ListCreateAPIView)
 
 3.UPDATE Request [Update Operation]
 
