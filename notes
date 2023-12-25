@@ -1,0 +1,35 @@
+Directory 
+    |#Backend is simply a Folder Where: djnago project , app, DRF resides
+    |-->backend (Its where django project  and
+    |             django rest framework  
+    |             is going to live.)
+            |
+            |--> Creating DjangoProject inside backend(main) Directory.
+            |                   |
+            |                   |---->django-admin startproject cfehome
+            |
+            |
+            |--> Creating Djangoapp inside backend(main) Directory.
+            |                    |
+            |                    |---> python manage.py startapp api
+            |                    |---> Write function in views.py
+            |                    |---> Add urls.py file inside that app
+                                 |---> Register app's url.py inside Project's urls.py
+
+
+            
+
+    |
+    |#It actually consumes the backend
+    |-->py_client (It consumes backend.)
+    |
+
+
+
+-------------------------------------------------------------------
+
+Function Based Views using Decorators Like @api_view
+Class Based Views using Generics
+Class Based Views using Mixins 
+
+-------------------------------------------------------------------
